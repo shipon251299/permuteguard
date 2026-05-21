@@ -1,0 +1,69 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Local experiment metadata and caches
+experiments/
+experiments_v2/
+.cache/
+
+# Large local model files and weights
+models/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Hugging Face / Transformers cache
+.huggingface/
+transformers_cache/
+
+# Output artifacts
+results/
+stage2_results/
+stage3_results/
+plots/
+figures/generated/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Environment/config secrets
+.env
+.env.*
+*.secret
+*key*.txt
+*token*
